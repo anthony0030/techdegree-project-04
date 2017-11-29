@@ -1198,11 +1198,283 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/docs": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/docs\/docs",
+	"\/bower_components\/lightbox2\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/lightbox2\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/lightbox2\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/lightbox2\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/lightbox2\/DEPLOY.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/lightbox2\/DEPLOY.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/lightbox2\/dist\/css\/lightbox.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/lightbox2\/dist\/css\/lightbox.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/bower_components\/lightbox2\/dist\/css\/lightbox.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/lightbox2\/dist\/css\/lightbox.min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/bower_components\/lightbox2\/dist\/images\/close.png": {
+		"ft": 32768,
+		"iS": 280,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/lightbox2\/dist\/images\/close.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/bower_components\/lightbox2\/dist\/images\/loading.gif": {
+		"ft": 4194304,
+		"iS": 8476,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/lightbox2\/dist\/images\/loading.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/bower_components\/lightbox2\/dist\/images\/next.png": {
+		"ft": 32768,
+		"iS": 1350,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/lightbox2\/dist\/images\/next.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/bower_components\/lightbox2\/dist\/images\/prev.png": {
+		"ft": 32768,
+		"iS": 1360,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/lightbox2\/dist\/images\/prev.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/bower_components\/lightbox2\/dist\/js\/lightbox-plus-jquery.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/lightbox2\/dist\/js\/lightbox-plus-jquery.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/bower_components\/lightbox2\/dist\/js\/lightbox-plus-jquery.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/lightbox2\/dist\/js\/lightbox-plus-jquery.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/bower_components\/lightbox2\/dist\/js\/lightbox-plus-jquery.min.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/lightbox2\/dist\/js\/lightbox-plus-jquery.min.map",
 		"oF": 0
+		},
+	"\/bower_components\/lightbox2\/dist\/js\/lightbox.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/lightbox2\/dist\/js\/lightbox.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/bower_components\/lightbox2\/dist\/js\/lightbox.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/lightbox2\/dist\/js\/lightbox.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/bower_components\/lightbox2\/dist\/js\/lightbox.min.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/lightbox2\/dist\/js\/lightbox.min.map",
+		"oF": 0
+		},
+	"\/bower_components\/lightbox2\/examples\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/lightbox2\/examples\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/lightbox2\/Gruntfile.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/lightbox2\/Gruntfile.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/bower_components\/lightbox2\/LICENSE": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/lightbox2\/LICENSE",
+		"oF": 0
+		},
+	"\/bower_components\/lightbox2\/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/lightbox2\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/lightbox2\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/lightbox2\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/lightbox2\/ROADMAP.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/lightbox2\/ROADMAP.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/lightbox2\/src\/css\/lightbox.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/lightbox2\/src\/css\/lightbox.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/bower_components\/lightbox2\/src\/images\/close.png": {
+		"ft": 32768,
+		"iS": 280,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/lightbox2\/src\/images\/close.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/bower_components\/lightbox2\/src\/images\/loading.gif": {
+		"ft": 4194304,
+		"iS": 8476,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/lightbox2\/src\/images\/loading.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/bower_components\/lightbox2\/src\/images\/next.png": {
+		"ft": 32768,
+		"iS": 1350,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/lightbox2\/src\/images\/next.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/bower_components\/lightbox2\/src\/images\/prev.png": {
+		"ft": 32768,
+		"iS": 1360,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/lightbox2\/src\/images\/prev.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/bower_components\/lightbox2\/src\/js\/lightbox.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/lightbox2\/src\/js\/lightbox.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/mockups": {
 		"ft": 65536,
@@ -1825,7 +2097,7 @@
 	"displayValue": "techdegree-project-4",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-owl",
-	"lastBuiltDate": 533657654
+	"lastBuiltDate": 533659285
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
