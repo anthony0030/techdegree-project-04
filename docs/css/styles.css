@@ -22,7 +22,7 @@ input#search {
   height: 35px;
   width: 60%;
   margin: 20px 20%;
-  border: 2px solid grey;
+  border: 2px solid #ccc;
   border-radius: 10px; }
 
 .lb-data .lb-caption {
