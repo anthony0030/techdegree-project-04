@@ -85,11 +85,11 @@ $(document).ready(function(){
     // console.log(userSerch);
 
     if($.trim(userSerch) != 0){
-      $("#gal").children("[title*='"+userSerch.toLowerCase()+"']").css( "display", "block")
-      $("#gal").children(":not([title*="+userSerch.toLowerCase()+"])").css( "display", "none")
+      $("#gal").children("[title*='"+userSerch.toLowerCase()+"']").css( "display", "block").attr("data-lightbox", 'image-galery');
+      $("#gal").children(":not([title*="+userSerch.toLowerCase()+"])").css( "display", "none").attr("data-lightbox", 'disabled');
     }
     else{
-      $("#gal").children().css( "display", "block")
+      $("#gal").children().css( "display", "block").attr("data-lightbox", 'image-galery');
     }
 
   });
