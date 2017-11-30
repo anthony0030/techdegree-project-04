@@ -1,0 +1,37 @@
+div#gal {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: auto; }
+  @media (min-width: 1024px) {
+    div#gal {
+      justify-content: space-between; } }
+
+a.photo {
+  margin: 10px; }
+
+input#search {
+  height: 35px;
+  width: 80%;
+  margin: 20px 10%; }
+
+.lb-data .lb-caption {
+  font-size: 25px;
+  margin-top: 10px; }
+
+body::before {
+  color: red;
+  position: fixed;
+  top: 0;
+  left: 0; }
+  @media (min-width: 320px) {
+    body::before {
+      content: "MOBILE"; } }
+  @media (min-width: 768px) {
+    body::before {
+      content: "TABLET"; } }
+  @media (min-width: 1024px) {
+    body::before {
+      content: "DESKTOP"; } }

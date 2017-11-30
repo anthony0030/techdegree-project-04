@@ -1476,10 +1476,10 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/mockups": {
+	"\/docs": {
 		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/docs\/mockups",
+		"oAP": "\/docs\/docs",
 		"oF": 0
 		},
 	"\/README.md": {
@@ -1829,6 +1829,28 @@
 		"oAP": "\/docs\/index.html",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/source\/mockups\/gallery_mockup.png": {
+		"ft": 32768,
+		"iS": 790988,
+		"oA": 0,
+		"oAP": "\/docs\/mockups\/gallery_mockup.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/mockups\/photo_lightbox.png": {
+		"ft": 32768,
+		"iS": 526451,
+		"oA": 0,
+		"oAP": "\/docs\/mockups\/photo_lightbox.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/source\/photos\/01.jpg": {
 		"ft": 16384,
