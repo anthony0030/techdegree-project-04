@@ -1,4 +1,5 @@
 var galeryHTML= "";
+var numberOfPhotos="0";
 var img_path = "photos/";
 var thumb_path = "photos/thumbnails/";
 var images =[
@@ -71,6 +72,7 @@ $(images).each(function(index) {
   galeryHTML += "<img src="+thumb_path+this.file+" alt='"+this.title+"'>";
   galeryHTML += "</a>"
   $("div#gal").html(galeryHTML);
+  numberOfPhotos++;
 });
 
 
@@ -91,6 +93,9 @@ $(document).ready(function(){
     }
 
   });
+
+  $("#search").attr("placeholder", "Search ("+numberOfPhotos+" Phtotos)").val("").focus().blur();
+
 })
 
 
