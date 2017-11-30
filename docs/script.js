@@ -75,7 +75,7 @@ $(images).each(function(index) {
 
 galeryHTML += "<img src='photos/No_image_available.svg' id='noPhotos'>";
 
-$("div#gal").html(galeryHTML);
+$("div#gallery").html(galeryHTML);
 $('#noPhotos').css("display", 'none');
 $('#noPhotos').css("margin", '0 auto');
 
@@ -86,14 +86,14 @@ $(document).ready(function(){
   $("#search").keyup(function(){
     var userSerch = $(this).val();
     if($.trim(userSerch) != 0){
-      $("#gal").children("[title*='"+userSerch.toLowerCase()+"']").css( "display", "block").attr("data-lightbox", 'image-galery');
-      $("#gal").children(":not([title*="+userSerch.toLowerCase()+"])").css( "display", "none").attr("data-lightbox", 'disabled');
+      $("#gallery").children("[title*='"+userSerch.toLowerCase()+"']").css( "display", "block").attr("data-lightbox", 'image-galery');
+      $("#gallery").children(":not([title*="+userSerch.toLowerCase()+"])").css( "display", "none").attr("data-lightbox", 'disabled');
     }
     else{
-      $("#gal").children().css( "display", "block").attr("data-lightbox", 'image-galery');
+      $("#gallery").children().css( "display", "block").attr("data-lightbox", 'image-galery');
     }
 
-    if($("#gal").children("[data-lightbox= 'disabled']").length === (numberOfPhotos+1)){
+    if($("#gallery").children("[data-lightbox= 'disabled']").length === (numberOfPhotos+1)){
       $('#noPhotos').css("display", 'block');
     }
     else{
