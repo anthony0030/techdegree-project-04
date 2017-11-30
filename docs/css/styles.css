@@ -24,6 +24,8 @@ input#search {
   margin: 20px 20%;
   border: 2px solid #ccc;
   border-radius: 10px; }
+  input#search:focus {
+    outline: none; }
 
 .lb-data .lb-caption {
   font-size: 25px;
