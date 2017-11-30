@@ -67,7 +67,7 @@ var images =[
 
 $(images).each(function(index) {
   // console.log(index + ": " + this.file);
-  galeryHTML += "<a class='photo' href='"+img_path+this.file+"' data-lightbox='image-"+index+"'data-title='"+this.caption+"' alt='"+this.title+"'"+"title='"+this.caption.toLowerCase()+"'>";
+  galeryHTML += "<a class='photo' href='"+img_path+this.file+"' data-lightbox='image-galery'data-title='"+this.caption+"' alt='"+this.title+"'"+"title='"+this.caption.toLowerCase()+"'>";
   galeryHTML += "<img src="+thumb_path+this.file+" alt='"+this.title+"'>";
   galeryHTML += "</a>"
   $("div#gal").html(galeryHTML);
@@ -77,19 +77,20 @@ $(images).each(function(index) {
 
 
 $(document).ready(function(){
-    $("#search").keyup(function(){
-        var userSerch = $(this).val();
+  $("#search").keyup(function(){
+    var userSerch = $(this).val();
+    
+    // console.log(userSerch);
 
-        // console.log(userSerch);
+    if($.trim(userSerch) != 0){
+      $("#gal").children("[title*='"+userSerch.toLowerCase()+"']").css( "display", "block")
+      $("#gal").children(":not([title*="+userSerch.toLowerCase()+"])").css( "display", "none")
+    }
+    else{
+      $("#gal").children().css( "display", "block")
+    }
 
-        if($.trim(userSerch) != 0){
-          $("#gal").children("[title*='"+userSerch.toLowerCase()+"']").css( "display", "block")
-          $("#gal").children(":not([title*="+userSerch.toLowerCase()+"])").css( "display", "none")
-        }
-        else{
-          $("#gal").children().css( "display", "block")
-        }
-    });
+  });
 })
 
 

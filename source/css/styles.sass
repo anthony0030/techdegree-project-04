@@ -1,4 +1,5 @@
-
+body
+  font-family: 'Open Sans Condensed', sans-serif
 
 div#gal
   display: flex
@@ -15,16 +16,25 @@ div#gal
 a.photo
   margin: 10px
 
+span.lb-number
+  display: none !important
 
 input#search
   height: 35px
-  width: 80%
-  margin: 20px 10%
+  width: 60%
+  margin: 20px 20%
+  border: 2px solid grey
+  border-radius: 10px
 
+
+// light box styles
 .lb-data .lb-caption
   font-size: 25px
   margin-top: 10px
 
+.lb-nav 
+  a.lb-prev, a.lb-next
+    opacity: 0.8
 
 
 @import debug
