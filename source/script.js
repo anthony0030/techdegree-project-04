@@ -77,19 +77,20 @@ $(images).each(function(index) {
 
 
 $(document).ready(function(){
-    $("#search").keyup(function(){
-        var userSerch = $(this).val();
+  $("#search").keyup(function(){
+    var userSerch = $(this).val();
+    
+    // console.log(userSerch);
 
-        // console.log(userSerch);
+    if($.trim(userSerch) != 0){
+      $("#gal").children("[title*='"+userSerch.toLowerCase()+"']").css( "display", "block")
+      $("#gal").children(":not([title*="+userSerch.toLowerCase()+"])").css( "display", "none")
+    }
+    else{
+      $("#gal").children().css( "display", "block")
+    }
 
-        if($.trim(userSerch) != 0){
-          $("#gal").children("[title*='"+userSerch.toLowerCase()+"']").css( "display", "block")
-          $("#gal").children(":not([title*="+userSerch.toLowerCase()+"])").css( "display", "none")
-        }
-        else{
-          $("#gal").children().css( "display", "block")
-        }
-    });
+  });
 })
 
 
