@@ -14,12 +14,17 @@ a.photo {
 
 input#search {
   height: 35px;
-  width: 80%;
-  margin: 20px 10%; }
+  width: 60%;
+  margin: 20px 20%;
+  border: 2px solid grey;
+  border-radius: 10px; }
 
 .lb-data .lb-caption {
   font-size: 25px;
   margin-top: 10px; }
+
+.lb-nav a.lb-prev, .lb-nav a.lb-next {
+  opacity: 0.8; }
 
 body::before {
   color: red;
