@@ -1476,6 +1476,12 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/docs": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/docs\/docs",
+		"oF": 0
+		},
 	"\/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -1965,6 +1971,16 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"\/source\/photos\/No_image_available.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/docs\/photos\/No_image_available.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/source\/photos\/photo_captions.txt": {
 		"cB": 0,
