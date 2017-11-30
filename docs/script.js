@@ -66,8 +66,8 @@ var images =[
 
 
 $(images).each(function(index) {
-  console.log(index + ": " + this.file);
-  galeryHTML += "<a class='photo' href='"+img_path+this.file+"' data-lightbox='image-"+index+"'data-title='"+this.caption+"' alt='"+this.title+"'>";
+  // console.log(index + ": " + this.file);
+  galeryHTML += "<a class='photo' href='"+img_path+this.file+"' data-lightbox='image-"+index+"'data-title='"+this.caption+"' alt='"+this.title+"'"+"title='"+this.caption.toLowerCase()+"'>";
   galeryHTML += "<img src="+thumb_path+this.file+" alt='"+this.title+"'>";
   galeryHTML += "</a>"
   $("div#gal").html(galeryHTML);
@@ -78,14 +78,16 @@ $(images).each(function(index) {
 
 $(document).ready(function(){
     $("#search").keyup(function(){
-        console.log($(this).val());
-        
-        if($(this).val()!==""){
-          $("#gal").children("[data-title*='"+$(this).val()+"']").css( "border", "2px solid green")
-          $("#gal").children(":not([data-title*="+$(this).val()+"])").css( "border", "2px solid red")
+        var userSerch = $(this).val();
+
+        // console.log(userSerch);
+
+        if($.trim(userSerch) != 0){
+          $("#gal").children("[title*='"+userSerch.toLowerCase()+"']").css( "display", "block")
+          $("#gal").children(":not([title*="+userSerch.toLowerCase()+"])").css( "display", "none")
         }
         else{
-          $("#gal").children().css( "border", "2px solid blue")
+          $("#gal").children().css( "display", "block")
         }
     });
 })
