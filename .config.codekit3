@@ -1531,7 +1531,7 @@
 		},
 	"\/source\/favicon\/android-icon-144x144.png": {
 		"ft": 32768,
-		"iS": 4495,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/docs\/favicon\/android-icon-144x144.png",
 		"oF": 0,
@@ -1542,7 +1542,7 @@
 		},
 	"\/source\/favicon\/android-icon-192x192.png": {
 		"ft": 32768,
-		"iS": 5051,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/docs\/favicon\/android-icon-192x192.png",
 		"oF": 0,
@@ -1553,7 +1553,7 @@
 		},
 	"\/source\/favicon\/android-icon-36x36.png": {
 		"ft": 32768,
-		"iS": 1695,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/docs\/favicon\/android-icon-36x36.png",
 		"oF": 0,
@@ -1564,7 +1564,7 @@
 		},
 	"\/source\/favicon\/android-icon-48x48.png": {
 		"ft": 32768,
-		"iS": 2016,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/docs\/favicon\/android-icon-48x48.png",
 		"oF": 0,
@@ -1575,7 +1575,7 @@
 		},
 	"\/source\/favicon\/android-icon-72x72.png": {
 		"ft": 32768,
-		"iS": 2266,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/docs\/favicon\/android-icon-72x72.png",
 		"oF": 0,
@@ -1586,7 +1586,7 @@
 		},
 	"\/source\/favicon\/android-icon-96x96.png": {
 		"ft": 32768,
-		"iS": 3114,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/docs\/favicon\/android-icon-96x96.png",
 		"oF": 0,
@@ -1597,7 +1597,7 @@
 		},
 	"\/source\/favicon\/apple-icon-114x114.png": {
 		"ft": 32768,
-		"iS": 3507,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/docs\/favicon\/apple-icon-114x114.png",
 		"oF": 0,
@@ -1608,7 +1608,7 @@
 		},
 	"\/source\/favicon\/apple-icon-120x120.png": {
 		"ft": 32768,
-		"iS": 3552,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/docs\/favicon\/apple-icon-120x120.png",
 		"oF": 0,
@@ -1619,7 +1619,7 @@
 		},
 	"\/source\/favicon\/apple-icon-144x144.png": {
 		"ft": 32768,
-		"iS": 4495,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/docs\/favicon\/apple-icon-144x144.png",
 		"oF": 0,
@@ -1630,7 +1630,7 @@
 		},
 	"\/source\/favicon\/apple-icon-152x152.png": {
 		"ft": 32768,
-		"iS": 4835,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/docs\/favicon\/apple-icon-152x152.png",
 		"oF": 0,
@@ -1641,7 +1641,7 @@
 		},
 	"\/source\/favicon\/apple-icon-180x180.png": {
 		"ft": 32768,
-		"iS": 5818,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/docs\/favicon\/apple-icon-180x180.png",
 		"oF": 0,
@@ -1652,7 +1652,7 @@
 		},
 	"\/source\/favicon\/apple-icon-57x57.png": {
 		"ft": 32768,
-		"iS": 2070,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/docs\/favicon\/apple-icon-57x57.png",
 		"oF": 0,
@@ -1663,7 +1663,7 @@
 		},
 	"\/source\/favicon\/apple-icon-60x60.png": {
 		"ft": 32768,
-		"iS": 2121,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/docs\/favicon\/apple-icon-60x60.png",
 		"oF": 0,
@@ -1674,7 +1674,7 @@
 		},
 	"\/source\/favicon\/apple-icon-72x72.png": {
 		"ft": 32768,
-		"iS": 2266,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/docs\/favicon\/apple-icon-72x72.png",
 		"oF": 0,
@@ -1685,7 +1685,7 @@
 		},
 	"\/source\/favicon\/apple-icon-76x76.png": {
 		"ft": 32768,
-		"iS": 2393,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/docs\/favicon\/apple-icon-76x76.png",
 		"oF": 0,
@@ -1696,7 +1696,7 @@
 		},
 	"\/source\/favicon\/apple-icon-precomposed.png": {
 		"ft": 32768,
-		"iS": 5753,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/docs\/favicon\/apple-icon-precomposed.png",
 		"oF": 0,
@@ -1707,7 +1707,7 @@
 		},
 	"\/source\/favicon\/apple-icon.png": {
 		"ft": 32768,
-		"iS": 5753,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/docs\/favicon\/apple-icon.png",
 		"oF": 0,
@@ -1725,7 +1725,7 @@
 		},
 	"\/source\/favicon\/favicon-16x16.png": {
 		"ft": 32768,
-		"iS": 1166,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/docs\/favicon\/favicon-16x16.png",
 		"oF": 0,
@@ -1736,7 +1736,7 @@
 		},
 	"\/source\/favicon\/favicon-32x32.png": {
 		"ft": 32768,
-		"iS": 1531,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/docs\/favicon\/favicon-32x32.png",
 		"oF": 0,
@@ -1747,7 +1747,7 @@
 		},
 	"\/source\/favicon\/favicon-96x96.png": {
 		"ft": 32768,
-		"iS": 3114,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/docs\/favicon\/favicon-96x96.png",
 		"oF": 0,
@@ -1773,7 +1773,7 @@
 		},
 	"\/source\/favicon\/ms-icon-144x144.png": {
 		"ft": 32768,
-		"iS": 4495,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/docs\/favicon\/ms-icon-144x144.png",
 		"oF": 0,
@@ -1784,7 +1784,7 @@
 		},
 	"\/source\/favicon\/ms-icon-150x150.png": {
 		"ft": 32768,
-		"iS": 4791,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/docs\/favicon\/ms-icon-150x150.png",
 		"oF": 0,
@@ -1795,7 +1795,7 @@
 		},
 	"\/source\/favicon\/ms-icon-310x310.png": {
 		"ft": 32768,
-		"iS": 12165,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/docs\/favicon\/ms-icon-310x310.png",
 		"oF": 0,
@@ -1806,7 +1806,7 @@
 		},
 	"\/source\/favicon\/ms-icon-70x70.png": {
 		"ft": 32768,
-		"iS": 2278,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/docs\/favicon\/ms-icon-70x70.png",
 		"oF": 0,
@@ -2113,7 +2113,7 @@
 	"displayValue": "techdegree-project-4",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-owl",
-	"lastBuiltDate": 533726543
+	"lastBuiltDate": 533726751
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
