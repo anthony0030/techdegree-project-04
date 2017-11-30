@@ -67,7 +67,7 @@ var images =[
 
 $(images).each(function(index) {
   // console.log(index + ": " + this.file);
-  galeryHTML += "<a class='photo' href='"+img_path+this.file+"' data-lightbox='image-"+index+"'data-title='"+this.caption+"' alt='"+this.title+"'"+"title='"+this.caption.toLowerCase()+"'>";
+  galeryHTML += "<a class='photo' href='"+img_path+this.file+"' data-lightbox='image-galery'data-title='"+this.caption+"' alt='"+this.title+"'"+"title='"+this.caption.toLowerCase()+"'>";
   galeryHTML += "<img src="+thumb_path+this.file+" alt='"+this.title+"'>";
   galeryHTML += "</a>"
   $("div#gal").html(galeryHTML);
