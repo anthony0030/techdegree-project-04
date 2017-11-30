@@ -78,9 +78,15 @@ $(images).each(function(index) {
 
 $(document).ready(function(){
     $("#search").keyup(function(){
-        console.log(($(this).val()));
-        $("#gal").children("[data-title*="+$(this).val()+"]").css( "border", "2px solid green")
-        $("#gal").children(":not([data-title*="+$(this).val()+"])").css( "border", "2px solid red")
+        console.log($(this).val());
+        
+        if($(this).val()!==""){
+          $("#gal").children("[data-title*='"+$(this).val()+"']").css( "border", "2px solid green")
+          $("#gal").children(":not([data-title*="+$(this).val()+"])").css( "border", "2px solid red")
+        }
+        else{
+          $("#gal").children().css( "border", "2px solid blue")
+        }
     });
 })
 
