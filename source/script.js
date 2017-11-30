@@ -70,10 +70,14 @@ $(images).each(function(index) {
   galeryHTML += "<a class='photo' href='"+img_path+this.file+"' data-lightbox='image-galery'data-title='"+this.caption+"' alt='"+this.title+"'"+"title='"+this.caption.toLowerCase()+"'>";
   galeryHTML += "<img src="+thumb_path+this.file+" alt='"+this.title+"'>";
   galeryHTML += "</a>"
-  $("div#gal").html(galeryHTML);
   numberOfPhotos++;
 });
 
+galeryHTML += "<img src='photos/No_image_available.svg' id='noPhotos'>";
+
+$("div#gal").html(galeryHTML);
+$('#noPhotos').css("display", 'none');
+$('#noPhotos').css("margin", '0 auto');
 
 
 $(document).ready(function(){
@@ -88,11 +92,20 @@ $(document).ready(function(){
     else{
       $("#gal").children().css( "display", "block").attr("data-lightbox", 'image-galery');
     }
+
+    if($("#gal").children("[data-lightbox= 'disabled']").length === (numberOfPhotos+1)){
+      $('#noPhotos').css("display", 'block');
+    }
+    else{
+      $('#noPhotos').css("display", 'none');
+    }
+
   });
 
+  // prints the number of photos to the serch bar
   $("#search").attr("placeholder", "Search ("+numberOfPhotos+" Phtotos)").val("").focus().blur();
 
 })
-
+  
 
 
