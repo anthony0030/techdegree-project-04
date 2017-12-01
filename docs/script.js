@@ -68,7 +68,7 @@ var images = [
 $(document).ready(function(){
   
   $(images).each(function(){
-    galleryHTML += "<a class='photo' href='"+img_path+this.file+"' data-lightbox='image-galery'data-title='"+this.caption+"' alt='"+this.title+"'"+"title='"+this.caption.toLowerCase()+"'>";
+    galleryHTML += "<a class='photo' href='"+img_path+this.file+"' data-lightbox='image-galery' data-title='"+this.caption+"' data-alt='"+this.title+"'"+"title='"+this.caption.toLowerCase()+"'>";
     galleryHTML += "<img src="+thumb_path+this.file+" alt='"+this.title+"'>";
     galleryHTML += "</a>";
     numberOfPhotos++;
