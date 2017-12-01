@@ -65,23 +65,20 @@ var images = [
   }
 ];
 
-
-$(images).each(function(){
-  galeryHTML += "<a class='photo' href='"+img_path+this.file+"' data-lightbox='image-galery'data-title='"+this.caption+"' alt='"+this.title+"'"+"title='"+this.caption.toLowerCase()+"'>";
-  galeryHTML += "<img src="+thumb_path+this.file+" alt='"+this.title+"'>";
-  galeryHTML += "</a>";
-  numberOfPhotos++;
-});
-
-galeryHTML += "<img src='photos/No_image_available.svg' id='noPhotos'>";
-
-$("div#gallery").html(galeryHTML);
-$('#noPhotos').css("display", 'none');
-$('#noPhotos').css("margin", '0 auto');
-
-
 $(document).ready(function(){
+  
+  $(images).each(function(){
+    galeryHTML += "<a class='photo' href='"+img_path+this.file+"' data-lightbox='image-galery'data-title='"+this.caption+"' alt='"+this.title+"'"+"title='"+this.caption.toLowerCase()+"'>";
+    galeryHTML += "<img src="+thumb_path+this.file+" alt='"+this.title+"'>";
+    galeryHTML += "</a>";
+    numberOfPhotos++;
+  });
 
+  galeryHTML += "<img src='photos/No_image_available.svg' id='noPhotos'>";
+
+  $("div#gallery").html(galeryHTML);
+  $('#noPhotos').css("display", 'none');
+  $('#noPhotos').css("margin", '0 auto');
 
   $("#search").keyup(function(){
     var userSerch = $(this).val();
