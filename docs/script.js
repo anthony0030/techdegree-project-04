@@ -1,8 +1,8 @@
-var galeryHTML= "";
-var numberOfPhotos="0";
+var galeryHTML = "";
+var numberOfPhotos = "0";
 var img_path = "photos/";
 var thumb_path = "photos/thumbnails/";
-var images =[
+var images = [
   {
     file: "01.jpg",
     title: "Hay Bales",
@@ -66,10 +66,10 @@ var images =[
 ];
 
 
-$(images).each(function(index) {
+$(images).each(function(){
   galeryHTML += "<a class='photo' href='"+img_path+this.file+"' data-lightbox='image-galery'data-title='"+this.caption+"' alt='"+this.title+"'"+"title='"+this.caption.toLowerCase()+"'>";
   galeryHTML += "<img src="+thumb_path+this.file+" alt='"+this.title+"'>";
-  galeryHTML += "</a>"
+  galeryHTML += "</a>";
   numberOfPhotos++;
 });
 
@@ -105,9 +105,7 @@ $(document).ready(function(){
   // prints the number of photos to the serch bar
   $("#search").attr("placeholder", "Search ("+numberOfPhotos+" Phtotos)").val("").focus().blur();
 
-})
-  
-
+});
 
 
 
