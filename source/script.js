@@ -66,10 +66,10 @@ var images = [
 ];
 
 $(document).ready(function(){
-  
+
   $(images).each(function(){
-    galleryHTML += "<a class='photo' href='"+img_path+this.file+"' data-lightbox='image-galery' data-title='"+this.caption+"' data-alt='"+this.title+"'"+"title='"+this.caption.toLowerCase()+"'>";
-    galleryHTML += "<img src="+thumb_path+this.file+" alt='"+this.title+"'>";
+    galleryHTML += "<a class='photo' href='" + img_path + this.file + "' data-lightbox='image-galery' data-title='" + this.caption + "' data-alt='" + this.title + "'" + "title='" + this.caption.toLowerCase() + "'>";
+    galleryHTML += "<img src=" + thumb_path + this.file +" alt='" + this.title+"'>";
     galleryHTML += "</a>";
     numberOfPhotos++;
   });
@@ -83,24 +83,24 @@ $(document).ready(function(){
   $("#search").keyup(function(){
     var userSerch = $(this).val();
     if($.trim(userSerch) !== "" && $.trim(userSerch) !=="\\"){
-      $("#gallery").children("[title*='"+userSerch.toLowerCase()+"']").attr("data-lightbox", 'image-galery').show();
-      $("#gallery").children(":not([title*='"+userSerch.toLowerCase()+"'])").attr("data-lightbox", 'disabled').hide();
+      $("#gallery").children("[title*='" + userSerch.toLowerCase() + "']").attr("data-lightbox", 'image-galery').show();
+      $("#gallery").children(":not([title*='" + userSerch.toLowerCase() + "'])").attr("data-lightbox", 'disabled').hide();
     }
     else{
       $("#gallery").children().attr("data-lightbox", 'image-galery').show();
     }
 
-    if($("#gallery").children("[data-lightbox= 'disabled']").length === (numberOfPhotos+1)){
-      $('#noPhotos').show();
+    if($("#gallery").children("[data-lightbox= 'disabled']").length === (numberOfPhotos+1)) {
+      $("#noPhotos").show();
     }
     else{
-      $('#noPhotos').hide();
+      $("#noPhotos").hide();
     }
 
   });
 
   // prints the number of photos to the serch bar
-  $("#search").attr("placeholder", "Search ("+numberOfPhotos+" Photos)").val("").focus().blur();
+  $("#search").attr("placeholder", "Search (" + numberOfPhotos + " Photos)").val("").focus().blur();
 
 });
 
