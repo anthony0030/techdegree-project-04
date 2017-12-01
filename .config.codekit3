@@ -1765,9 +1765,9 @@
 		},
 	"\/source\/favicon\/manifest.json": {
 		"ft": 524288,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/docs\/favicon\/manifest-min.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
@@ -2123,7 +2123,7 @@
 	"displayValue": "techdegree-project-4",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-owl",
-	"lastBuiltDate": 533813880
+	"lastBuiltDate": 533814255
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
