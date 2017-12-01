@@ -1,4 +1,4 @@
-var galeryHTML = "";
+var galleryHTML = "";
 var numberOfPhotos = "0";
 var img_path = "photos/";
 var thumb_path = "photos/thumbnails/";
@@ -68,15 +68,15 @@ var images = [
 $(document).ready(function(){
   
   $(images).each(function(){
-    galeryHTML += "<a class='photo' href='"+img_path+this.file+"' data-lightbox='image-galery'data-title='"+this.caption+"' alt='"+this.title+"'"+"title='"+this.caption.toLowerCase()+"'>";
-    galeryHTML += "<img src="+thumb_path+this.file+" alt='"+this.title+"'>";
-    galeryHTML += "</a>";
+    galleryHTML += "<a class='photo' href='"+img_path+this.file+"' data-lightbox='image-galery'data-title='"+this.caption+"' alt='"+this.title+"'"+"title='"+this.caption.toLowerCase()+"'>";
+    galleryHTML += "<img src="+thumb_path+this.file+" alt='"+this.title+"'>";
+    galleryHTML += "</a>";
     numberOfPhotos++;
   });
 
-  galeryHTML += "<img src='photos/No_image_available.svg' id='noPhotos'>";
+  galleryHTML += "<img src='photos/No_image_available.svg' id='noPhotos'>";
 
-  $("div#gallery").html(galeryHTML);
+  $("div#gallery").html(galleryHTML);
   $('#noPhotos').css("display", 'none');
   $('#noPhotos').css("margin", '0 auto');
 
