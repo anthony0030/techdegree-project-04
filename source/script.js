@@ -82,25 +82,25 @@ $(document).ready(function(){
 
   $("#search").keyup(function(){
     var userSerch = $(this).val();
-    if($.trim(userSerch) !== ""){
-      $("#gallery").children("[title*='"+userSerch.toLowerCase()+"']").css( "display", "block").attr("data-lightbox", 'image-galery');
-      $("#gallery").children(":not([title*='"+userSerch.toLowerCase()+"'])").css( "display", "none").attr("data-lightbox", 'disabled');
+    if($.trim(userSerch) !== "" && $.trim(userSerch) !=="\\"){
+      $("#gallery").children("[title*='"+userSerch.toLowerCase()+"']").attr("data-lightbox", 'image-galery').show();
+      $("#gallery").children(":not([title*='"+userSerch.toLowerCase()+"'])").attr("data-lightbox", 'disabled').hide();
     }
     else{
-      $("#gallery").children().css( "display", "block").attr("data-lightbox", 'image-galery');
+      $("#gallery").children().attr("data-lightbox", 'image-galery').show();
     }
 
     if($("#gallery").children("[data-lightbox= 'disabled']").length === (numberOfPhotos+1)){
-      $('#noPhotos').css("display", 'block');
+      $('#noPhotos').show();
     }
     else{
-      $('#noPhotos').css("display", 'none');
+      $('#noPhotos').hide();
     }
 
   });
 
   // prints the number of photos to the serch bar
-  $("#search").attr("placeholder", "Search ("+numberOfPhotos+" Phtotos)").val("").focus().blur();
+  $("#search").attr("placeholder", "Search ("+numberOfPhotos+" Photos)").val("").focus().blur();
 
 });
 
