@@ -87,7 +87,7 @@ $(document).ready(function(){
     var userSerch = $(this).val();
     if($.trim(userSerch) !== ""){
       $("#gallery").children("[title*='"+userSerch.toLowerCase()+"']").css( "display", "block").attr("data-lightbox", 'image-galery');
-      $("#gallery").children(":not([title*="+userSerch.toLowerCase()+"])").css( "display", "none").attr("data-lightbox", 'disabled');
+      $("#gallery").children(":not([title*='"+userSerch.toLowerCase()+"'])").css( "display", "none").attr("data-lightbox", 'disabled');
     }
     else{
       $("#gallery").children().css( "display", "block").attr("data-lightbox", 'image-galery');
