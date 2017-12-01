@@ -66,10 +66,10 @@ var images = [
 ];
 
 $(document).ready(function(){
-  
+
   $(images).each(function(){
-    galleryHTML += "<a class='photo' href='"+img_path+this.file+"' data-lightbox='image-galery'data-title='"+this.caption+"' alt='"+this.title+"'"+"title='"+this.caption.toLowerCase()+"'>";
-    galleryHTML += "<img src="+thumb_path+this.file+" alt='"+this.title+"'>";
+    galleryHTML += "<a class='photo' href='" + img_path + this.file + "' data-lightbox='image-galery' data-title='" + this.caption + "' data-alt='" + this.title + "'" + "title='" + this.caption.toLowerCase() + "'>";
+    galleryHTML += "<img src=" + thumb_path + this.file +" alt='" + this.title+"'>";
     galleryHTML += "</a>";
     numberOfPhotos++;
   });
@@ -82,25 +82,25 @@ $(document).ready(function(){
 
   $("#search").keyup(function(){
     var userSerch = $(this).val();
-    if($.trim(userSerch) !== ""){
-      $("#gallery").children("[title*='"+userSerch.toLowerCase()+"']").css( "display", "block").attr("data-lightbox", 'image-galery');
-      $("#gallery").children(":not([title*='"+userSerch.toLowerCase()+"'])").css( "display", "none").attr("data-lightbox", 'disabled');
+    if($.trim(userSerch) !== "" && $.trim(userSerch) !=="\\"){
+      $("#gallery").children("[title*='" + userSerch.toLowerCase() + "']").attr("data-lightbox", 'image-galery').show();
+      $("#gallery").children(":not([title*='" + userSerch.toLowerCase() + "'])").attr("data-lightbox", 'disabled').hide();
     }
     else{
-      $("#gallery").children().css( "display", "block").attr("data-lightbox", 'image-galery');
+      $("#gallery").children().attr("data-lightbox", 'image-galery').show();
     }
 
-    if($("#gallery").children("[data-lightbox= 'disabled']").length === (numberOfPhotos+1)){
-      $('#noPhotos').css("display", 'block');
+    if($("#gallery").children("[data-lightbox= 'disabled']").length === (numberOfPhotos+1)) {
+      $("#noPhotos").show();
     }
     else{
-      $('#noPhotos').css("display", 'none');
+      $("#noPhotos").hide();
     }
 
   });
 
   // prints the number of photos to the serch bar
-  $("#search").attr("placeholder", "Search ("+numberOfPhotos+" Phtotos)").val("").focus().blur();
+  $("#search").attr("placeholder", "Search (" + numberOfPhotos + " Photos)").val("").focus().blur();
 
 });
 
