@@ -24,6 +24,10 @@ input#search {
   input#search:focus {
     outline: none; }
 
+#noPhotos {
+  display: none;
+  margin: 0 auto; }
+
 .lb-data .lb-caption {
   font-size: 25px;
   margin-top: 10px; }
