@@ -85,7 +85,7 @@ $(document).ready(function(){
 
   $("#search").keyup(function(){
     var userSerch = $(this).val();
-    if($.trim(userSerch) != 0){
+    if(parseInt($.trim(userSerch)) !== 0 && userSerch !== ""){
       $("#gallery").children("[title*='"+userSerch.toLowerCase()+"']").css( "display", "block").attr("data-lightbox", 'image-galery');
       $("#gallery").children(":not([title*="+userSerch.toLowerCase()+"])").css( "display", "none").attr("data-lightbox", 'disabled');
     }
