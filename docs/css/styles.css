@@ -8,9 +8,6 @@ div#gallery {
   justify-content: center;
   width: 80%;
   margin: auto; }
-  @media (min-width: 1024px) {
-    div#gallery {
-      justify-content: space-between; } }
 
 a.photo {
   margin: 10px; }
