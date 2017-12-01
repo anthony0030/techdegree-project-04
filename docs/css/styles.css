@@ -30,18 +30,3 @@ input#search {
 
 .lb-nav a.lb-prev, .lb-nav a.lb-next {
   opacity: 0.8; }
-
-body::before {
-  color: red;
-  position: fixed;
-  top: 0;
-  left: 0; }
-  @media (min-width: 320px) {
-    body::before {
-      content: "MOBILE"; } }
-  @media (min-width: 768px) {
-    body::before {
-      content: "TABLET"; } }
-  @media (min-width: 1024px) {
-    body::before {
-      content: "DESKTOP"; } }
