@@ -1476,12 +1476,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/docs": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/docs\/docs",
-		"oF": 0
-		},
 	"\/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -1538,9 +1532,9 @@
 	"\/source\/favicon\/android-icon-144x144.png": {
 		"ft": 32768,
 		"iS": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/favicon\/android-icon-144x144.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -1549,9 +1543,9 @@
 	"\/source\/favicon\/android-icon-192x192.png": {
 		"ft": 32768,
 		"iS": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/favicon\/android-icon-192x192.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -1560,9 +1554,9 @@
 	"\/source\/favicon\/android-icon-36x36.png": {
 		"ft": 32768,
 		"iS": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/favicon\/android-icon-36x36.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -1571,9 +1565,9 @@
 	"\/source\/favicon\/android-icon-48x48.png": {
 		"ft": 32768,
 		"iS": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/favicon\/android-icon-48x48.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -1582,9 +1576,9 @@
 	"\/source\/favicon\/android-icon-72x72.png": {
 		"ft": 32768,
 		"iS": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/favicon\/android-icon-72x72.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -1593,9 +1587,9 @@
 	"\/source\/favicon\/android-icon-96x96.png": {
 		"ft": 32768,
 		"iS": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/favicon\/android-icon-96x96.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -1604,9 +1598,9 @@
 	"\/source\/favicon\/apple-icon-114x114.png": {
 		"ft": 32768,
 		"iS": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/favicon\/apple-icon-114x114.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -1615,9 +1609,9 @@
 	"\/source\/favicon\/apple-icon-120x120.png": {
 		"ft": 32768,
 		"iS": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/favicon\/apple-icon-120x120.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -1626,9 +1620,9 @@
 	"\/source\/favicon\/apple-icon-144x144.png": {
 		"ft": 32768,
 		"iS": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/favicon\/apple-icon-144x144.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -1637,9 +1631,9 @@
 	"\/source\/favicon\/apple-icon-152x152.png": {
 		"ft": 32768,
 		"iS": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/favicon\/apple-icon-152x152.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -1648,9 +1642,9 @@
 	"\/source\/favicon\/apple-icon-180x180.png": {
 		"ft": 32768,
 		"iS": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/favicon\/apple-icon-180x180.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -1659,9 +1653,9 @@
 	"\/source\/favicon\/apple-icon-57x57.png": {
 		"ft": 32768,
 		"iS": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/favicon\/apple-icon-57x57.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -1670,9 +1664,9 @@
 	"\/source\/favicon\/apple-icon-60x60.png": {
 		"ft": 32768,
 		"iS": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/favicon\/apple-icon-60x60.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -1681,9 +1675,9 @@
 	"\/source\/favicon\/apple-icon-72x72.png": {
 		"ft": 32768,
 		"iS": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/favicon\/apple-icon-72x72.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -1692,9 +1686,9 @@
 	"\/source\/favicon\/apple-icon-76x76.png": {
 		"ft": 32768,
 		"iS": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/favicon\/apple-icon-76x76.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -1703,9 +1697,9 @@
 	"\/source\/favicon\/apple-icon-precomposed.png": {
 		"ft": 32768,
 		"iS": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/favicon\/apple-icon-precomposed.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -1714,11 +1708,11 @@
 	"\/source\/favicon\/apple-icon.png": {
 		"ft": 32768,
 		"iS": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/favicon\/apple-icon.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1727,25 +1721,25 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/docs\/favicon\/browserconfig.xml",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/favicon\/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/favicon\/favicon-16x16.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/source\/favicon\/favicon-32x32.png": {
 		"ft": 32768,
 		"iS": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/favicon\/favicon-32x32.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -1754,9 +1748,9 @@
 	"\/source\/favicon\/favicon-96x96.png": {
 		"ft": 32768,
 		"iS": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/favicon\/favicon-96x96.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -1767,7 +1761,7 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/docs\/favicon\/favicon.ico",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/favicon\/manifest.json": {
 		"ft": 524288,
@@ -1780,9 +1774,9 @@
 	"\/source\/favicon\/ms-icon-144x144.png": {
 		"ft": 32768,
 		"iS": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/favicon\/ms-icon-144x144.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -1791,9 +1785,9 @@
 	"\/source\/favicon\/ms-icon-150x150.png": {
 		"ft": 32768,
 		"iS": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/favicon\/ms-icon-150x150.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -1802,9 +1796,9 @@
 	"\/source\/favicon\/ms-icon-310x310.png": {
 		"ft": 32768,
 		"iS": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/favicon\/ms-icon-310x310.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -1813,9 +1807,9 @@
 	"\/source\/favicon\/ms-icon-70x70.png": {
 		"ft": 32768,
 		"iS": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/favicon\/ms-icon-70x70.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -1830,34 +1824,24 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/source\/mockups\/gallery_mockup.png": {
-		"ft": 32768,
-		"iS": 790988,
-		"oA": 0,
-		"oAP": "\/docs\/mockups\/gallery_mockup.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+	"\/source\/logo": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/docs\/logo",
+		"oF": 0
 		},
-	"\/source\/mockups\/photo_lightbox.png": {
-		"ft": 32768,
-		"iS": 526451,
-		"oA": 0,
-		"oAP": "\/docs\/mockups\/photo_lightbox.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+	"\/source\/mockups": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/docs\/mockups",
+		"oF": 0
 		},
 	"\/source\/photos\/01.jpg": {
 		"ft": 16384,
 		"iS": 508430,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/photos\/01.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -1865,9 +1849,9 @@
 	"\/source\/photos\/02.jpg": {
 		"ft": 16384,
 		"iS": 290616,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/photos\/02.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -1875,9 +1859,9 @@
 	"\/source\/photos\/03.jpg": {
 		"ft": 16384,
 		"iS": 552419,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/photos\/03.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -1885,9 +1869,9 @@
 	"\/source\/photos\/04.jpg": {
 		"ft": 16384,
 		"iS": 355532,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/photos\/04.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -1895,9 +1879,9 @@
 	"\/source\/photos\/05.jpg": {
 		"ft": 16384,
 		"iS": 737089,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/photos\/05.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -1905,9 +1889,9 @@
 	"\/source\/photos\/06.jpg": {
 		"ft": 16384,
 		"iS": 1138119,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/photos\/06.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -1915,9 +1899,9 @@
 	"\/source\/photos\/07.jpg": {
 		"ft": 16384,
 		"iS": 618621,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/photos\/07.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -1935,9 +1919,9 @@
 	"\/source\/photos\/09.jpg": {
 		"ft": 16384,
 		"iS": 892553,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/photos\/09.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -1945,9 +1929,9 @@
 	"\/source\/photos\/10.jpg": {
 		"ft": 16384,
 		"iS": 410269,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/photos\/10.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -1955,9 +1939,9 @@
 	"\/source\/photos\/11.jpg": {
 		"ft": 16384,
 		"iS": 472714,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/photos\/11.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -1965,9 +1949,9 @@
 	"\/source\/photos\/12.jpg": {
 		"ft": 16384,
 		"iS": 661823,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/photos\/12.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -1977,7 +1961,7 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/docs\/photos\/No_image_available.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -1987,14 +1971,14 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/docs\/photos\/photo_captions.txt",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/photos\/thumbnails\/01.jpg": {
 		"ft": 16384,
 		"iS": 10506,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/photos\/thumbnails\/01.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -2002,9 +1986,9 @@
 	"\/source\/photos\/thumbnails\/02.jpg": {
 		"ft": 16384,
 		"iS": 5740,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/photos\/thumbnails\/02.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -2012,9 +1996,9 @@
 	"\/source\/photos\/thumbnails\/03.jpg": {
 		"ft": 16384,
 		"iS": 8235,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/photos\/thumbnails\/03.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -2022,9 +2006,9 @@
 	"\/source\/photos\/thumbnails\/04.jpg": {
 		"ft": 16384,
 		"iS": 9328,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/photos\/thumbnails\/04.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -2032,9 +2016,9 @@
 	"\/source\/photos\/thumbnails\/05.jpg": {
 		"ft": 16384,
 		"iS": 17891,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/photos\/thumbnails\/05.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -2042,9 +2026,9 @@
 	"\/source\/photos\/thumbnails\/06.jpg": {
 		"ft": 16384,
 		"iS": 19400,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/photos\/thumbnails\/06.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -2052,9 +2036,9 @@
 	"\/source\/photos\/thumbnails\/07.jpg": {
 		"ft": 16384,
 		"iS": 16525,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/photos\/thumbnails\/07.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -2062,9 +2046,9 @@
 	"\/source\/photos\/thumbnails\/08.jpg": {
 		"ft": 16384,
 		"iS": 13306,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/photos\/thumbnails\/08.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -2072,9 +2056,9 @@
 	"\/source\/photos\/thumbnails\/09.jpg": {
 		"ft": 16384,
 		"iS": 15882,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/photos\/thumbnails\/09.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -2082,9 +2066,9 @@
 	"\/source\/photos\/thumbnails\/10.jpg": {
 		"ft": 16384,
 		"iS": 9491,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/photos\/thumbnails\/10.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -2092,9 +2076,9 @@
 	"\/source\/photos\/thumbnails\/11.jpg": {
 		"ft": 16384,
 		"iS": 12041,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/photos\/thumbnails\/11.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -2102,9 +2086,9 @@
 	"\/source\/photos\/thumbnails\/12.jpg": {
 		"ft": 16384,
 		"iS": 12153,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/photos\/thumbnails\/12.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -2129,7 +2113,7 @@
 	"displayValue": "techdegree-project-4",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-owl",
-	"lastBuiltDate": 533814255
+	"lastBuiltDate": 534674904
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -4105,7 +4089,7 @@
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/old, \/source\/partials, \/mockups",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/old, \/source\/partials, \/mockups, \/source\/logo, \/source\/mockups",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"uglifyDefinesString": "",
