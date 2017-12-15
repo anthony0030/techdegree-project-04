@@ -104,7 +104,8 @@ $(document).ready(function(){
 
   // Configure lightbox2
   lightbox.option({
-      'showImageNumberLabel': false
+      'showImageNumberLabel': false,
+      'wrapAround': true
     })
 
 });
