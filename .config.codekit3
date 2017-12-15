@@ -1476,12 +1476,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/docs": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/docs\/docs",
-		"oF": 0
-		},
 	"\/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -2119,7 +2113,7 @@
 	"displayValue": "techdegree-project-4",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-owl",
-	"lastBuiltDate": 535022763
+	"lastBuiltDate": 535031826
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
