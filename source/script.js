@@ -102,5 +102,10 @@ $(document).ready(function(){
   // prints the number of photos to the serch bar
   $("#search").attr("placeholder", "Search (" + numberOfPhotos + " Photos)").val("").focus().blur();
 
+  // Configure lightbox2
+  lightbox.option({
+      'showImageNumberLabel': false
+    })
+
 });
 
