@@ -7,7 +7,7 @@
 		"uuidString": "9A13AC89-A095-490D-A799-72F858D9CC5C"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -1476,12 +1476,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/docs": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/docs\/docs",
-		"oF": 0
-		},
 	"\/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -1845,6 +1839,7 @@
 	"\/source\/photos\/01.jpg": {
 		"ft": 16384,
 		"iS": 508430,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/docs\/photos\/01.jpg",
 		"oF": 1,
@@ -1855,6 +1850,7 @@
 	"\/source\/photos\/02.jpg": {
 		"ft": 16384,
 		"iS": 290616,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/docs\/photos\/02.jpg",
 		"oF": 1,
@@ -1865,6 +1861,7 @@
 	"\/source\/photos\/03.jpg": {
 		"ft": 16384,
 		"iS": 552419,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/docs\/photos\/03.jpg",
 		"oF": 1,
@@ -1875,6 +1872,7 @@
 	"\/source\/photos\/04.jpg": {
 		"ft": 16384,
 		"iS": 355532,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/docs\/photos\/04.jpg",
 		"oF": 1,
@@ -1885,6 +1883,7 @@
 	"\/source\/photos\/05.jpg": {
 		"ft": 16384,
 		"iS": 737089,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/docs\/photos\/05.jpg",
 		"oF": 1,
@@ -1895,6 +1894,7 @@
 	"\/source\/photos\/06.jpg": {
 		"ft": 16384,
 		"iS": 1138119,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/docs\/photos\/06.jpg",
 		"oF": 1,
@@ -1905,6 +1905,7 @@
 	"\/source\/photos\/07.jpg": {
 		"ft": 16384,
 		"iS": 618621,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/docs\/photos\/07.jpg",
 		"oF": 1,
@@ -1915,6 +1916,7 @@
 	"\/source\/photos\/08.jpg": {
 		"ft": 16384,
 		"iS": 601795,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/photos\/08.jpg",
 		"oF": 0,
@@ -1925,6 +1927,7 @@
 	"\/source\/photos\/09.jpg": {
 		"ft": 16384,
 		"iS": 892553,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/docs\/photos\/09.jpg",
 		"oF": 1,
@@ -1935,6 +1938,7 @@
 	"\/source\/photos\/10.jpg": {
 		"ft": 16384,
 		"iS": 410269,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/docs\/photos\/10.jpg",
 		"oF": 1,
@@ -1945,6 +1949,7 @@
 	"\/source\/photos\/11.jpg": {
 		"ft": 16384,
 		"iS": 472714,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/docs\/photos\/11.jpg",
 		"oF": 1,
@@ -1955,6 +1960,7 @@
 	"\/source\/photos\/12.jpg": {
 		"ft": 16384,
 		"iS": 661823,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/docs\/photos\/12.jpg",
 		"oF": 1,
@@ -1982,6 +1988,7 @@
 	"\/source\/photos\/thumbnails\/01.jpg": {
 		"ft": 16384,
 		"iS": 10506,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/docs\/photos\/thumbnails\/01.jpg",
 		"oF": 1,
@@ -1992,6 +1999,7 @@
 	"\/source\/photos\/thumbnails\/02.jpg": {
 		"ft": 16384,
 		"iS": 5740,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/docs\/photos\/thumbnails\/02.jpg",
 		"oF": 1,
@@ -2002,6 +2010,7 @@
 	"\/source\/photos\/thumbnails\/03.jpg": {
 		"ft": 16384,
 		"iS": 8235,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/docs\/photos\/thumbnails\/03.jpg",
 		"oF": 1,
@@ -2012,6 +2021,7 @@
 	"\/source\/photos\/thumbnails\/04.jpg": {
 		"ft": 16384,
 		"iS": 9328,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/docs\/photos\/thumbnails\/04.jpg",
 		"oF": 1,
@@ -2022,6 +2032,7 @@
 	"\/source\/photos\/thumbnails\/05.jpg": {
 		"ft": 16384,
 		"iS": 17891,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/docs\/photos\/thumbnails\/05.jpg",
 		"oF": 1,
@@ -2032,6 +2043,7 @@
 	"\/source\/photos\/thumbnails\/06.jpg": {
 		"ft": 16384,
 		"iS": 19400,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/docs\/photos\/thumbnails\/06.jpg",
 		"oF": 1,
@@ -2042,6 +2054,7 @@
 	"\/source\/photos\/thumbnails\/07.jpg": {
 		"ft": 16384,
 		"iS": 16525,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/docs\/photos\/thumbnails\/07.jpg",
 		"oF": 1,
@@ -2052,6 +2065,7 @@
 	"\/source\/photos\/thumbnails\/08.jpg": {
 		"ft": 16384,
 		"iS": 13306,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/docs\/photos\/thumbnails\/08.jpg",
 		"oF": 1,
@@ -2062,6 +2076,7 @@
 	"\/source\/photos\/thumbnails\/09.jpg": {
 		"ft": 16384,
 		"iS": 15882,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/docs\/photos\/thumbnails\/09.jpg",
 		"oF": 1,
@@ -2072,6 +2087,7 @@
 	"\/source\/photos\/thumbnails\/10.jpg": {
 		"ft": 16384,
 		"iS": 9491,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/docs\/photos\/thumbnails\/10.jpg",
 		"oF": 1,
@@ -2082,6 +2098,7 @@
 	"\/source\/photos\/thumbnails\/11.jpg": {
 		"ft": 16384,
 		"iS": 12041,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/docs\/photos\/thumbnails\/11.jpg",
 		"oF": 1,
@@ -2092,6 +2109,7 @@
 	"\/source\/photos\/thumbnails\/12.jpg": {
 		"ft": 16384,
 		"iS": 12153,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/docs\/photos\/thumbnails\/12.jpg",
 		"oF": 1,
@@ -2119,7 +2137,8 @@
 	"displayValue": "techdegree-project-04",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-owl",
-	"lastBuiltDate": 535031826
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 553605551
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3922,6 +3941,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
