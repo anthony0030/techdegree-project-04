@@ -358,6 +358,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/bower_components\/jquery\/src\/core\/camelCase.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/jquery\/src\/core\/camelCase.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/bower_components\/jquery\/src\/core\/DOMEval.js": {
 		"ft": 64,
 		"ma": 0,
@@ -444,6 +454,16 @@
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/docs\/bower_components\/jquery\/src\/core\/support.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/core\/toType.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/jquery\/src\/core\/toType.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -558,12 +578,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/css\/var\/rmargin.js": {
+	"\/bower_components\/jquery\/src\/css\/var\/rboxStyle.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/docs\/bower_components\/jquery\/src\/css\/var\/rmargin.js",
+		"oAP": "\/docs\/bower_components\/jquery\/src\/css\/var\/rboxStyle.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -1108,6 +1128,26 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/bower_components\/jquery\/src\/var\/isFunction.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/jquery\/src\/var\/isFunction.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/var\/isWindow.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/jquery\/src\/var\/isWindow.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/bower_components\/jquery\/src\/var\/ObjectFunctionString.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1475,6 +1515,12 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"\/docs": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/docs\/docs",
+		"oF": 0
 		},
 	"\/README.md": {
 		"cB": 0,
