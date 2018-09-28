@@ -9,6 +9,9 @@ div#gallery {
   width: 80%;
   margin: auto; }
 
+header h1 {
+  text-align: center; }
+
 a.photo {
   margin: 10px; }
 
