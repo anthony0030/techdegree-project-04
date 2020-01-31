@@ -4,9 +4,9 @@ html(lang='en')
     title Photo Gallery
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css')
-    link(rel='stylesheet', href='bower_components/lightbox2/dist/css/lightbox.min.css')
-    link(href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet")
+    link(rel='stylesheet', href='node_modules/normalize.css/normalize.css')
+    link(rel='stylesheet', href='node_modules/lightbox2/dist/css/lightbox.min.css')
+    link(href="node_modules/@openfonts/open-sans-condensed_all/index.css" rel="stylesheet")
     link(rel='stylesheet', href='css/styles.css')
     include _favicon
   body
@@ -17,8 +17,8 @@ html(lang='en')
       div#gallery
     footer
     //- jQuery
-    script(src='bower_components/jquery/dist/jquery.js')
+    script(src='node_modules/jquery/dist/jquery.js')
     //- lightbox2
-    script(src='bower_components/lightbox2/dist/js/lightbox.min.js')
-    //- Custom 
+    script(src='node_modules/lightbox2/dist/js/lightbox.min.js')
+    //- Custom
     script(src='script.js')
