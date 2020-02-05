@@ -1,11 +1,13 @@
 {
-  "name": "codekit-project",
+  "name": "techdegree-project-02",
   "version": "1.0.0",
-  "description": "CodeKit created this starter package.json file. You should customize it appropriately.",
-  "scripts": {},
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://anthony0030@github.com/anthony0030/techdegree-project-04.git"
+  },
+  "author": "Anthony Veaudry",
   "license": "UNLICENSED",
-  "repository": {},
+  "homepage": "https://anthony0030.github.io/techdegree-project-04",
   "dependencies": {
     "@openfonts/open-sans-condensed_all": "^1.44.0",
     "jquery": "^3.4.1",
