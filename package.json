@@ -10,7 +10,7 @@
   "homepage": "https://anthony0030.github.io/techdegree-project-04",
   "dependencies": {
     "@openfonts/open-sans-condensed_all": "^1.44.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "lightbox2": "^2.11.1",
     "normalize.css": "^8.0.1"
   }
