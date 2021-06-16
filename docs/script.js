@@ -1,7 +1,7 @@
 var galleryHTML = "";
 var numberOfPhotos = "0";
-var img_path = "photos/";
-var thumb_path = "photos/thumbnails/";
+var imgPath = "photos/";
+var thumbPath = "photos/thumbnails/";
 var images = [
   {
     file: "01.jpg",
@@ -68,8 +68,8 @@ var images = [
 $(document).ready(function(){
 
   $(images).each(function(){
-    galleryHTML += "<a class='photo' href='" + img_path + this.file + "' data-lightbox='image-galery' data-title='" + this.caption + "' data-alt='" + this.title + "'" + "title='" + this.caption.toLowerCase() + "'>";
-    galleryHTML += "<img src=" + thumb_path + this.file +" alt='" + this.title+"'>";
+    galleryHTML += "<a class='photo' href='" + imgPath + this.file + "' data-lightbox='image-gallery' data-title='" + this.caption + "' data-alt='" + this.title + "'" + "title='" + this.caption.toLowerCase() + "'>";
+    galleryHTML += "<img src=" + thumbPath + this.file +" alt='" + this.title+"'>";
     galleryHTML += "</a>";
     numberOfPhotos++;
   });
@@ -77,17 +77,17 @@ $(document).ready(function(){
   galleryHTML += "<img src='photos/No_image_available.svg' id='noPhotos'>";
 
   $("div#gallery").html(galleryHTML);
-  $('#noPhotos').css("display", 'none');
-  $('#noPhotos').css("margin", '0 auto');
+  $("#noPhotos").css("display", 'none');
+  $("#noPhotos").css("margin", '0 auto');
 
   $("#search").keyup(function(){
     var userSerch = $(this).val();
     if($.trim(userSerch) !== "" && $.trim(userSerch) !=="\\"){
-      $("#gallery").children("[title*='" + userSerch.toLowerCase() + "']").attr("data-lightbox", 'image-galery').show();
-      $("#gallery").children(":not([title*='" + userSerch.toLowerCase() + "'])").attr("data-lightbox", 'disabled').hide();
+      $("#gallery").children("[title*='" + userSerch.toLowerCase() + "']").attr("data-lightbox", "image-gallery").show();
+      $("#gallery").children(":not([title*='" + userSerch.toLowerCase() + "'])").attr("data-lightbox", "disabled").hide();
     }
     else{
-      $("#gallery").children().attr("data-lightbox", 'image-galery').show();
+      $("#gallery").children().attr("data-lightbox", "image-gallery").show();
     }
 
     if($("#gallery").children("[data-lightbox= 'disabled']").length === (numberOfPhotos+1)) {
@@ -104,9 +104,8 @@ $(document).ready(function(){
 
   // Configure lightbox2
   lightbox.option({
-      'showImageNumberLabel': false,
-      'wrapAround': true
-    })
+      showImageNumberLabel: false,
+      wrapAround: true
+  });
 
 });
-
