@@ -1,3 +1,5 @@
+/* global lightbox */
+
 var galleryHTML = "";
 var numberOfPhotos = "0";
 var imgPath = "photos/";
@@ -77,14 +79,14 @@ $(document).ready(function(){
   galleryHTML += "<img src='photos/No_image_available.svg' id='noPhotos'>";
 
   $("div#gallery").html(galleryHTML);
-  $("#noPhotos").css("display", 'none');
-  $("#noPhotos").css("margin", '0 auto');
+  $("#noPhotos").css("display", "none");
+  $("#noPhotos").css("margin", "0 auto");
 
   $("#search").keyup(function(){
-    var userSerch = $(this).val();
-    if($.trim(userSerch) !== "" && $.trim(userSerch) !=="\\"){
-      $("#gallery").children("[title*='" + userSerch.toLowerCase() + "']").attr("data-lightbox", "image-gallery").show();
-      $("#gallery").children(":not([title*='" + userSerch.toLowerCase() + "'])").attr("data-lightbox", "disabled").hide();
+    var userSearch = $(this).val();
+    if($.trim(userSearch) !== "" && $.trim(userSearch) !=="\\"){
+      $("#gallery").children("[title*='" + userSearch.toLowerCase() + "']").attr("data-lightbox", "image-gallery").show();
+      $("#gallery").children(":not([title*='" + userSearch.toLowerCase() + "'])").attr("data-lightbox", "disabled").hide();
     }
     else{
       $("#gallery").children().attr("data-lightbox", "image-gallery").show();
@@ -99,7 +101,7 @@ $(document).ready(function(){
 
   });
 
-  // prints the number of photos to the serch bar
+  // prints the number of photos to the search bar
   $("#search").attr("placeholder", "Search (" + numberOfPhotos + " Photos)").val("").focus().blur();
 
   // Configure lightbox2
