@@ -11,7 +11,7 @@
   "dependencies": {
     "@openfonts/open-sans-condensed_all": "^1.44.2",
     "jquery": "^3.7.1",
-    "lightbox2": "^2.11.4",
+    "lightbox2": "^2.11.5",
     "normalize.css": "^8.0.1"
   }
 }
